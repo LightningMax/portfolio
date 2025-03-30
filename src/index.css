@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+
+@font-face {
+  font-family: 'Megafield Regular';
+  src: url('fonts/Megafield-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-megafield: 'Megafield Regular', "serif";
+  
+  /* --color-nier-50: #C1BDA2; */
+  --color-nier-50: #c3bda8;
+  --color-nier-100: #b8b29d;
+  --color-nier-200: #b0ab98;
+  --color-nier-300: #594e4a;
+  --color-nier-400: #4b413d;
+}
+
