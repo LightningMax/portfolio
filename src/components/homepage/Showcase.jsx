@@ -8,16 +8,20 @@ export default function Projects() {
             <h2 className="text-nier-50 opacity-90 text-7xl/25 pt-10 w-full text-center font-general">PROJETS</h2>
             <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
                 <div className="col-span-1 md:col-span-12">
+                    <a href="https://loretta.shop">
                     <ProjectCard
                         title={projectsData[0].title}
                         description={projectsData[0].description}
                         img={projectsData[0].imgSrc}
                     />
-                    <ProjectCard
-                        title={projectsData[1].title}
-                        description={projectsData[1].description}
-                        img={projectsData[1].imgSrc}
-                    />
+                    </a>
+                    <a href="https://lightningmax.github.io/SongUniverse-landing-page/">
+                        <ProjectCard
+                            title={projectsData[1].title}
+                            description={projectsData[1].description}
+                            img={projectsData[1].imgSrc}
+                        />
+                    </a>
                 </div>
             </div>
         </section>
