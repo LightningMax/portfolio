@@ -4,19 +4,19 @@ export default function Hero() {
   return (
     <section id="hero" className="hero h-screen w-full flex flex-col">
       <div  className="flex items-center flex-col justify-center flex-grow">
-        <h1 className="text-nier-400 opacity-90 font-megafield text-6xl pr-96 animate-slide-in-left">
-          MAX
+        <h1 className="title  text-nier-400 font-general text-8xl">
+          SALUT, JE M'APPELLE MAX
         </h1>
         <div className="flex flex-col gap-10">
-          <p className="text-nier-400 opacity-90 font-megafield text-4xl pt-10 w-4xl">
-          Je conçois des applications web élégantes et performantes.
+          <p className="text-nier-400 opacity-90 font-general text-6xl pt-10 w-3xl">
+          Je conçois des applications web élégantes & performantes.
           </p>
-          <div className="w-2xl bounce">
+          <div className="flex w-full justify-center">
             <CTAButton message="Contactez-moi!" />
           </div>
         </div>
       </div>
-      <div className="flex absolute bottom-10 w-full justify-center">
+      <div className="flex absolute bottom-10 w-full justify-center animate-pulse">
         <span className="text-nier-400 opacity-90 font-megafield text-4xl">
           portfolio
         </span>
