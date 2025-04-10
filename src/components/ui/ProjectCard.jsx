@@ -1,6 +1,6 @@
 export default function ProjectCard ({title, description, img}) {
     return (
-        <article >
+        <article className="flex flex-col gap-5" >
             <div className="img group inline-block overflow-hidden duration-200 ease-linear hover:rounded-3xl" >
                 <img className="w-screen duration-700 ease-in-out group-hover:scale-105" 
                 src={img} 
@@ -9,12 +9,12 @@ export default function ProjectCard ({title, description, img}) {
                 alt="" />
             </div>
             <div className="flex space-x-2 mb-3">
-                <p className="rounded-full bg-transparent border border-secondary-600 flex justify-center items-center px-4 py-1 text-nier-50 text-body-4 2xl:text-3xl">{description}</p>
+                <p className="rounded-full bg-transparent font-general border border-secondary-600 flex justify-center items-center px-4 py-1 text-nier-50 text-body-4 2xl:text-3xl">{description}</p>
             </div>
-
-            <h3 className="text-works-title 2xl:text-5xl font-megafield uppercase text-nier-50">
+            <h3 className="text-works-title 2xl:text-5xl font-general uppercase text-nier-50 mb-5">
           {title}
             </h3>
+
         </article>
     )
 }

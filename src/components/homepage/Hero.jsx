@@ -2,13 +2,13 @@ import CTAButton from "../ui/CTAButton";
 
 export default function Hero() {
   return (
-    <section id="hero" className="hero h-screen w-full flex flex-col">
-      <div  className="flex items-center flex-col justify-center flex-grow">
-        <h1 className="title  text-nier-400 font-general text-8xl">
+    <section id="hero" className="hero h-screen w-full place-content-center">
+      <div  className="flex items-center flex-col justify-center">
+        <h1 className="title  text-nier-400 font-general text-3xl lg:text-8xl">
           SALUT, JE M'APPELLE MAX
         </h1>
         <div className="flex flex-col gap-10">
-          <p className="text-nier-400 opacity-90 font-general text-6xl pt-10 w-3xl">
+          <p className="text-nier-400 opacity-90 font-general text-2xl w-full text-center lg:text-6xl pt-10 lg:w-3xl">
           Je conçois des applications web élégantes & performantes.
           </p>
           <div className="flex w-full justify-center">
